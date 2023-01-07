@@ -7,7 +7,7 @@ jobs:
       matrix:                     # run the same job with different configurations
         node-version: [12, 14, 16]
         operating-system: [ubuntu-latest, windows-latest]
-        includes:                 # include single combination
+        include:                 # include single combination
           - node-version: 18
             operating-system: ubuntu-latest
         exclude:                  # exclude single combination      
